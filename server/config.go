@@ -361,7 +361,7 @@ func (c *config) Validate(logger *zap.Logger) map[string]string {
 		logger.Warn("WARNING: deprecated configuration parameter", zap.String("deprecated", "runtime.registry_size"), zap.String("param", "runtime.lua_registry_size"))
 		configWarnings["runtime.registry_size"] = "Deprecated configuration parameter"
 	}
-	if !config.GetRuntime().ReadOnlyGlobals {
+	if !c.GetRuntime().ReadOnlyGlobals {
 		logger.Warn("WARNING: deprecated configuration parameter", zap.String("deprecated", "runtime.read_only_globals"), zap.String("param", "runtime.lua_read_only_globals"))
 		configWarnings["runtime.read_only_globals"] = "Deprecated configuration parameter"
 	}

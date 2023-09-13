@@ -94,9 +94,10 @@ func main() {
 
 				return nil
 			}); err != nil {
+				conn.Close()
 				tmpLogger.Fatal("Failed to acquire pgx conn for migration", zap.Error(err))
 			}
-
+			conn.Close()
 			return
 		case "check":
 			// Parse any command line args to look up runtime path.

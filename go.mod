@@ -15,7 +15,6 @@ require (
 	github.com/gorilla/websocket v1.5.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
 	github.com/heroiclabs/nakama-common v1.28.1
-	github.com/jackc/pgconn v1.14.0
 	github.com/heroiclabs/sql-migrate v0.0.0-20230615133120-fb3ad977aaaf
 	github.com/jackc/pgerrcode v0.0.0-20220416144525-469b46aa5efa
 	github.com/jackc/pgtype v0.0.0-20190828014616-a8802b16cc59
