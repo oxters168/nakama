@@ -6,7 +6,7 @@ Angular service code gen
 
 ### Install
 ```sh
-  go install github.com/heroiclabs/nakama/v3/console/openapi-gen-angular
+  go install github.com/heroiclabs/nakama/console/openapi-gen-angular
 ```
 ### Usage
 

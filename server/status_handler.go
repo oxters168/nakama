@@ -19,7 +19,7 @@ import (
 	"math"
 	"runtime"
 
-	"github.com/heroiclabs/nakama/v3/console"
+	"github.com/heroiclabs/nakama/console"
 	"go.uber.org/zap"
 )
 
